@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=New Amsterdam");
+
+body {
+	background: linear-gradient(90deg, #101082 0%, #000000 100%);
+	font-family: New Amsterdam, serif;
+}
+
+.nav-link {
+	color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+	color: rgb(115, 160, 145);
+}
+
+.navbar-toggler {
+	background-color: rgb(178, 160, 135);
+}
+
+.sidebar {
+	color: aquamarine;
+	background: linear-gradient(270deg, #0000FD 0%, #121111 100%);
+}
+
+.card {
+	background: linear-gradient(270deg, #0000FD 0%, #020202 100%);
+	color: aquamarine;
+}
+
+.slide-text,
+.footer-text {
+	color: aquamarine;
+	margin: auto auto;
+}
+
+
+footer {
+	background: linear-gradient(270deg, #0000FD 0%, #020202 100%);
+
+}
+
+.media-lincs{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 755px) {
+	.carousel-indicators {
+		display: none;
+	}
+
+}
